@@ -1,0 +1,25 @@
+.footer {
+    background-color: rgb(72, 95, 138);
+    color: white;
+    padding: 15px 0;
+  }
+  
+  .footer-logo {
+    max-width: 100px; 
+    font-family: 'Unbounded', sans-serif;
+    font-size: 1.5rem; 
+    color: rgb(255, 85, 0);
+    -webkit-text-stroke: 2px rgb(241, 0, 0);
+  }
+
+  .footer-logo:hover{
+    color: rgb(255, 85, 0);
+    -webkit-text-stroke: 2px rgb(241, 0, 0);
+  }
+  
+  .footer-icon {
+    font-size: 24px;
+    color: white;
+    margin-left: 10px; 
+  }
+  

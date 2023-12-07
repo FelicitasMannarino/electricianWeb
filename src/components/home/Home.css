@@ -1,0 +1,110 @@
+
+.home {
+    margin: 10% 0;
+    padding: 20px;
+    background-color: rgb(116, 151, 216);
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home h5 {
+    font-weight: bold;
+    font-size: 1.2rem; 
+}
+
+.home-card {
+    width: 100%;
+    max-width: 18rem;
+    margin: 0 auto;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 550px; 
+    object-fit: cover; 
+}
+
+
+.carousel-caption h3,
+.carousel-caption p {
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.home-services {
+    color: aliceblue;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    padding: 10px;
+    background-color: cornflowerblue;
+    font-size: 1.2rem;
+}
+
+.home-services h3 {
+    margin-bottom: 10px; 
+}
+
+.home-services p {
+    font-weight: bold;
+}
+
+.contact-link {
+    color: white; 
+    text-decoration: underline; 
+    cursor: pointer; 
+}
+
+
+
+@media (max-width: 768px) {
+    .home {
+        margin: 5% 0;
+    }
+
+    .home-services {
+        margin-top: 4%;
+        font-size: 1rem; 
+    }
+
+
+    .row {
+        justify-content: center;
+    }
+
+
+    .home-card {
+        margin-bottom: 20px; 
+    }
+}
+
+/* about us style */
+
+.about-us {
+    margin: 15% 20%;
+    background-color: gray;
+  }
+
+  .about-us h5{
+    font-weight: bold;
+  }
+  
+  .card-style {
+    max-width: 80%; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .about-us {
+      margin: 25% 0;
+    }
+  
+    .card-style {
+      max-width: 100%; 
+    }
+  }
+  
+
+
