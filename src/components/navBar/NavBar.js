@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 function NavBar() {
   return (
     <header>
-        <nav className='navbar navbar-expand-lg bg-body-tertiary'>
+        <nav className='navbar navbar-expand-lg'>
          <div className='container-fluid'>
            <Link className='navbar-brand navbar-logo' >EG</Link>
            <div className='navbar-options' id='navbarNav'>

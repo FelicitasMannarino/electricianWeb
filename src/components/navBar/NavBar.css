@@ -1,10 +1,16 @@
 
 .header {
     padding: 15px 0;
+    position: fixed;
   }
   
   .navbar {
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(72, 95, 138);
   }
   
   .navbar-logo {
@@ -24,6 +30,10 @@
     margin-right: 20px;
   }
 
+  .navbar-nav .nav-item .nav-link.active {
+    color: white;
+    font-weight: bold;
+  }
 
 @media (max-width: 768px) {
     .navbar-options {
