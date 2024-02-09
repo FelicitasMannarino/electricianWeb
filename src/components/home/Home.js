@@ -11,7 +11,7 @@ function Home() {
             <Carousel.Item>
              <img className='d-block w-100 carousel-img' src='https://d100mj7v0l85u5.cloudfront.net/s3fs-public/2023-04/dispositivos-de-proteccion-electrica-3.png' alt='instalaciones electricidad'/>
              <Carousel.Caption className='carousel-caption'>
-                <h3 className='carousel-caption-text'>Electricista; instalador y montador</h3>
+                <h3 className='carousel-caption-text'>Electricista; instalador y montadores</h3>
                 <p className='carousel-caption-text'>Matriculado</p>
              </Carousel.Caption>
             </Carousel.Item>
